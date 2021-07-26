@@ -1,0 +1,35 @@
+<form action="">
+    <div class="forms">
+       
+
+
+
+
+        <mat-form-field class="form">
+          <mat-label>Nome:</mat-label>
+          <input [(ngModel)]="calcme.nome" id="nome" name="calcme.nome" matInput placeholder="Nome">
+          
+          
+        </mat-form-field>
+        <mat-form-field class="form">
+            <mat-label>Email:</mat-label>
+            <input [(ngModel)]="calcme.email" id="email" name="calcme.email" type="email" matInput placeholder="exemplo@email.com">
+            
+            
+          </mat-form-field>
+          <mat-form-field class="form">
+            <mat-label>Telefone:</mat-label>
+            <input [(ngModel)]="calcme.telefone" id="telefone" name="calcme.telefone" type="tel" matInput placeholder="(00) 90000-0000" mask="(00) 00000-0000">
+            
+            
+          </mat-form-field>
+
+        
+      
+  </div>
+
+  <div class="buttons">
+    <button (click)="create()" mat-raised-button color="primary">ENVIAR</button>
+    <button (click)="listagem()" mat-raised-button color="warn">LISTAGEM</button>
+</div>
+</form>

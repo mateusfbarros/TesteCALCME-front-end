@@ -1,0 +1,22 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.content {
+  width: 100%;
+}
+
+mat-card {
+  margin-top: 2rem;
+  padding: 0.8rem;
+}
+
+.cadastrar {
+  margin-top: 1.5rem;
+  text-align: end;
+}
+
+.cadastrar button {
+  margin: auto;
+}
